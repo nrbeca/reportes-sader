@@ -10,7 +10,6 @@ from config import (
     get_config_by_year, numero_a_letras_mx
 )
 
-
 def sum_columns(df, prefix, months_to_use):
     """Suma las columnas de un prefijo para los meses especificados"""
     cols = [f'{prefix}_{month}' for month in months_to_use if f'{prefix}_{month}' in df.columns]
