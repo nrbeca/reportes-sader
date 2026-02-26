@@ -352,3 +352,5 @@ def generar_excel_map(resultados):
     output.seek(0)
     
     return output.getvalue()
+
+
