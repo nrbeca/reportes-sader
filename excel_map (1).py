@@ -57,7 +57,7 @@ def generar_excel_map(resultados):
     # Colores corregidos
     fill_header = PatternFill(start_color='9B2247', end_color='9B2247', fill_type='solid')  # Vino
     fill_total = PatternFill(start_color='E6D194', end_color='E6D194', fill_type='solid')   # Beige
-    fill_gray = PatternFill(start_color='98989A', end_color='98989A', fill_type='solid')    # Gris
+    fill_gray = PatternFill(start_color='C4BFB6', end_color='C4BFB6', fill_type='solid')    # Gris
     fill_white = PatternFill(start_color='FFFFFF', end_color='FFFFFF', fill_type='solid')
     
     border_dotted = Border(
